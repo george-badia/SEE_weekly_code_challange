@@ -58,3 +58,26 @@ def common_elements():
     
     common = set1.intersection(set2)
     print(f"Common elements: {common}")
+
+# 5. List comprehension for words with odd length
+def odd_length_words():
+    words = ["apple", "banana", "cat", "dog", "elephant", "fish", "grape"]
+    odd_length = [word for word in words if len(word) % 2 != 0]
+    print("Words with odd number of characters:", odd_length)
+
+# Run all programs
+if __name__ == "__main__":
+    print("1. Sum of Integers")
+    sum_of_integers()
+    
+    print("\n2. Favorite Books")
+    print_favorite_books()
+    
+    print("\n3. Person Information")
+    store_person_info()
+    
+    print("\n4. Common Elements in Sets")
+    common_elements()
+    
+    print("\n5. Words with Odd Length")
+    odd_length_words()
