@@ -43,7 +43,7 @@ The Python Data Structures Exercises project includes five Python programs that 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/python-data-structures
+    git clone https://github.com/george-badia/SEE_weekly_code_challange
     ```
 
 2. Navigate to the repository directory:
@@ -72,7 +72,7 @@ The Python Data Structures Exercises project includes five Python programs that 
 3. Run the script:
 
     ```bash
-    python3 python_programs.py
+    python3 code_challange.py
     ```
 
 ## Technologies Used
@@ -84,7 +84,7 @@ This program is built with:
 
 ## Support and Contact Details
 
-For any issues, please email me at your.email@example.com
+For any issues, please email me at gbadia03@gmail.com
 
 ## License
 
