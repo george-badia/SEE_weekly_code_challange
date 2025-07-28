@@ -19,3 +19,14 @@ def print_favorite_books():
     for book in favorite_books:
         print(book)
 
+# 3. Dictionary to store person information
+def store_person_info():
+    person = {}
+    person['name'] = input("Enter your name: ")
+    try:
+        person['age'] = int(input("Enter your age: "))
+    except ValueError:
+        print("Invalid age, setting to 0")
+        person['age'] = 0
+    person['favorite_color'] = input("Enter your favorite color: ")
+    print("Person information:", person)
