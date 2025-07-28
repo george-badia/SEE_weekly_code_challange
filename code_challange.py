@@ -13,3 +13,9 @@ def sum_of_integers():
     total = sum(numbers)
     print(f"The sum of the integers is: {total}")
 
+# 2. Tuple of favorite books with for loop
+def print_favorite_books():
+    favorite_books = ("The Great Gatsby", "1984", "To Kill a Mockingbird", "Pride and Prejudice", "The Catcher in the Rye")
+    for book in favorite_books:
+        print(book)
+
