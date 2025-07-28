@@ -49,7 +49,7 @@ The Python Data Structures Exercises project includes five Python programs that 
 2. Navigate to the repository directory:
 
     ```bash
-    cd python-data-structures
+    cd SEE_weekly_code_challange
     ```
 
 3. Open in Visual Studio Code or your desired IDE:
