@@ -30,3 +30,31 @@ def store_person_info():
         person['age'] = 0
     person['favorite_color'] = input("Enter your favorite color: ")
     print("Person information:", person)
+
+# 4. Program to find common elements in two sets
+def common_elements():
+    set1 = set()
+    set2 = set()
+    
+    print("Enter integers for first set (enter 'done' to finish):")
+    while True:
+        user_input = input("Enter an integer: ")
+        if user_input.lower() == 'done':
+            break
+        try:
+            set1.add(int(user_input))
+        except ValueError:
+            print("Please enter a valid integer.")
+    
+    print("Enter integers for second set (enter 'done' to finish):")
+    while True:
+        user_input = input("Enter an integer: ")
+        if user_input.lower() == 'done':
+            break
+        try:
+            set2.add(int(user_input))
+        except ValueError:
+            print("Please enter a valid integer.")
+    
+    common = set1.intersection(set2)
+    print(f"Common elements: {common}")
